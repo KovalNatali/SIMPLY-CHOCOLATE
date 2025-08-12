@@ -4,33 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chocolate</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href=""
-          >SIMPLY CHOCOLATE<img src="./images/chocolat.svg" alt="site logo"
+    <header class="header">
+      <nav class="header-navigation">
+        <a class="header-logo">
+          <span class="header-logo-cursive"> SIMPLY </span>CHOCOLATE<img
+            class="header-image"
+            src="./images/chocolat.svg"
+            alt="site logo"
         /></a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">How it’s made?</a></li>
-          <li><a href="">Chocolate is loved</a></li>
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">Home</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">How it’s made?</a>
+          </li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">Chocolate is loved</a>
+          </li>
         </ul>
-        <ul>
-          <li>
-            <a href="" target="_blank"
+        <ul class="header-contact-list">
+          <li class="header-contact-item">
+            <a class="header-contact-link" href="" target="_blank"
               ><img
+                class="header-contact-icon"
                 src="./images/instagram.svg"
                 alt="icon"
                 rel="noopener noreferrer nofollow"
             /></a>
           </li>
-          <li>
-            <a href="" target="_blank"
+          <li class="header-contact-item">
+            <a class="header-contact-link" href="" target="_blank"
               ><img
+                class="header-contact-icon"
                 src="./images/Vector.svg"
                 alt="icon"
-                target="_blank"
                 rel="noopener noreferrer nofollow"
             /></a>
           </li>
@@ -38,16 +55,16 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <button type="button">Buy now</button>
-        <a href="#made">How it’s made</a>
-        <a href=""> scroll down</a>
+        <button class="hero-buy-btn" type="button">Buy now</button>
+        <a class="hero-made-btn" href="#made">How it’s made</a>
+        <a class="hero-down-btn" href=""> scroll down</a>
       </section>
-      <section>
+      <section class="featuras">
         <h2 hidden>Featuras</h2>
         <ul>
           <li>
@@ -112,7 +129,7 @@
           </li>
           <li>
             <img
-              src="./images/kisspng-nuts 1-min.png"
+              src="./images/kisspng-nuts1-min.png"
               alt="image-nuts"
               width="206"
               height="160"
@@ -309,8 +326,8 @@
               crunchy.
             </p>
           </li>
-          <button type="button">Leave a review</button>
         </ul>
+        <button type="button">Leave a review</button>
       </section>
       <section>
         <h2>EXPLORE OUR NEW CHOCOLATE FIRST</h2>
@@ -352,7 +369,6 @@
             ><img
               src="./images/Vector.svg"
               alt="icon"
-              target="_blank"
               rel="noopener noreferrer nofollow"
           /></a>
         </li>
