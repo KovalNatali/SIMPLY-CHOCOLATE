@@ -26,6 +26,9 @@ a {
   text-decoration: none;
   color: currentColor;
 }
+
+/* ========= header ============ */
+
 .header-logo {
   font-weight: 700;
   font-size: 19px;
@@ -43,3 +46,142 @@ a {
   letter-spacing: -0.02em;
   color: #111111;
 }
+
+/* ============= hero ============== */
+
+.hero {
+  background-color: dimgrey;
+  /* width: 1136px; */
+  height: 600px;
+}
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.hero-buy-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+.hero-made-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+.hero-down-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+/*==========featuras =========== */
+
+.featuras {
+  background-color: #1e1823;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+.taste-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ======== taste ========= */
+
+.taste {
+}
+
+.taste-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.taste-title span {
+  color: #fd9222;
+}
+.taste-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+}
+.taste-list {
+}
+
+.taste-item {
+}
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/* +======== made ========= */
+
+.made-title title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.made-title span {
+  color: #fd9222;
+}
+
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133%;
+  color: #111;
+}
+
+.made-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+/* ===== products =========== */
