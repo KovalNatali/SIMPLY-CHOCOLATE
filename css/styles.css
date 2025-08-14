@@ -311,3 +311,61 @@ a {
   font-size: 18px;
   color: #fff;
 }
+
+/* ======== footer =============== */
+.footer {
+  background-color: #1e1823;
+}
+.footer-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 121%;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-text span {
+  color: #fd9222;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  /* text-align: center; */
+  color: #fff;
+}
+.footer-contacts-list {
+}
+.footer-contacts-item {
+}
+.footer-contacts-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  /* text-align: center; */
+  color: #fff;
+}
+.footer-soc-list {
+}
+.footer-soc-item {
+}
+.footer-soc-link {
+}
+.footer-soc-icon {
+  color: #fff;
+}
+.footer-navigation {
+}
+.footer-menu-list {
+}
+.footer-menu-item {
+}
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
