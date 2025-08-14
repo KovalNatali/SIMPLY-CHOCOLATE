@@ -27,6 +27,20 @@ a {
   color: currentColor;
 }
 
+.title {
+  font-weight: 600;
+  /* font-size: 24px; */
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  /* text-align: center; */
+  color: #111;
+}
+
+.title span {
+  color: #fd9222;
+}
 /* ========= header ============ */
 
 .header-logo {
@@ -119,18 +133,15 @@ a {
 }
 
 .taste-title {
-  font-weight: 600;
+  /* font-weight: 600;
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
   text-align: center;
-  color: #111;
+  color: #111; */
 }
 
-.taste-title span {
-  color: #fd9222;
-}
 .taste-text {
   font-weight: 400;
   font-size: 14px;
@@ -156,17 +167,6 @@ a {
 /* +======== made ========= */
 
 .made-title title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #111;
-}
-
-.made-title span {
-  color: #fd9222;
 }
 
 .made-subtitle {
@@ -185,3 +185,129 @@ a {
 }
 
 /* ===== products =========== */
+
+.products {
+}
+.products-title {
+}
+
+.products-list {
+}
+.products-item {
+}
+.products-image {
+}
+
+.products-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.products-item-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.products-item-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+}
+
+/* ===========sellers ============== */
+.sellers {
+}
+.sellers-title {
+}
+.sellers-list {
+}
+.sellers-item {
+}
+.sellers-image {
+}
+
+.sellers-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  text-align: center;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-top: 0;
+  border-radius: 0 0 15px 15px;
+}
+
+/* =========== loved ============== */
+.loved {
+}
+.loved-title {
+}
+.loved-list {
+}
+.loved-item {
+}
+.loved-image {
+}
+
+.loved-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133%;
+  /* text-align: center; */
+  color: #111;
+}
+
+.loved-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  /* text-align: center; */
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.loved-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+
+/* ========== explore ============= */
+
+.explore {
+  background-color: dimgrey;
+  /* width: 1136px; */
+  height: 370px;
+}
+.explore-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  /* text-align: center; */
+  color: #fff;
+}
+.explore-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+.explore-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
