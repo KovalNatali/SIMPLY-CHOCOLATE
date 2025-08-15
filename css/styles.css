@@ -27,6 +27,28 @@ a {
   color: currentColor;
 }
 
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1136px;
+  /* width: 320px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .title {
   font-weight: 600;
   /* font-size: 24px; */
@@ -41,7 +63,12 @@ a {
 .title span {
   color: #fd9222;
 }
+
 /* ========= header ============ */
+.header {
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
 
 .header-logo {
   font-weight: 700;
@@ -60,13 +87,21 @@ a {
   letter-spacing: -0.02em;
   color: #111111;
 }
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #fd9222;
+}
 
 /* ============= hero ============== */
 
 .hero {
+  padding-bottom: 80px;
+}
+
+.hero-wrap {
   background-color: dimgrey;
-  /* width: 1136px; */
-  height: 600px;
+  padding: 380px 40px 40px 40px;
+  border-radius: 30px;
 }
 .hero-title {
   font-weight: 500;
@@ -74,6 +109,8 @@ a {
   line-height: 1.21;
   letter-spacing: -0.03em;
   color: #fff;
+  margin-bottom: 32px;
+  max-width: 484px;
 }
 
 .hero-buy-btn {
@@ -98,6 +135,8 @@ a {
 
 .featuras {
   background-color: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .visually-hidden {
   position: absolute;
@@ -120,7 +159,7 @@ a {
   font-size: 18px;
   color: #fff;
 }
-.taste-text {
+.features-item-text {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: -0.02em;
@@ -130,25 +169,27 @@ a {
 /* ======== taste ========= */
 
 .taste {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .taste-title {
-  /* font-weight: 600;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
+  width: 383px;
+  margin: 0 auto;
+  margin-bottom: 28px;
   text-align: center;
-  color: #111; */
 }
 
 .taste-text {
+  width: 486px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-align: center;
   color: #111;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 .taste-list {
 }
@@ -166,7 +207,12 @@ a {
 
 /* +======== made ========= */
 
-.made-title title {
+.made {
+  padding-bottom: 120px;
+}
+
+.made-title {
+  margin-bottom: 50px;
 }
 
 .made-subtitle {
@@ -187,8 +233,10 @@ a {
 /* ===== products =========== */
 
 .products {
+  padding-bottom: 120px;
 }
 .products-title {
+  margin-bottom: 50px;
 }
 
 .products-list {
