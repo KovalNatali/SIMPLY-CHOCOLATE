@@ -268,12 +268,26 @@ img {
 .made-title {
   margin-bottom: 50px;
 }
+.made-wrap {
+  display: flex;
+  gap: 20px;
+}
+
+.made-image {
+}
+
+.made-content {
+  /* display: flex; */
+}
 
 .made-subtitle {
   font-weight: 600;
   font-size: 18px;
   line-height: 133%;
   color: #111;
+}
+
+.made-list {
 }
 
 .made-item-text {
@@ -324,11 +338,15 @@ img {
 
 /* ===========sellers ============== */
 .sellers {
+  padding-bottom: 128px;
 }
 .sellers-title {
   margin-bottom: 50px;
 }
+
 .sellers-list {
+  display: flex;
+  gap: 16px;
 }
 .sellers-item {
 }
@@ -344,11 +362,20 @@ img {
   color: #111;
   padding-top: 28px;
   padding-bottom: 28px;
+  text-align: center;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-top: 0;
   border-radius: 0 0 15px 15px;
 }
 
+.sellers-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+  width: 402px;
+}
 /* =========== loved ============== */
 .loved {
 }
