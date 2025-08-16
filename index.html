@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo">
             <span class="header-logo-cursive"> SIMPLY </span>CHOCOLATE<img
@@ -37,27 +37,28 @@
               <a class="header-menu-link" href="">Chocolate is loved</a>
             </li>
           </ul>
-          <ul class="header-contact-list">
-            <li class="header-contact-item">
-              <a class="header-contact-link" href="" target="_blank"
-                ><img
-                  class="header-contact-icon"
-                  src="./images/instagram.svg"
-                  alt="icon"
-                  rel="noopener noreferrer nofollow"
-              /></a>
-            </li>
-            <li class="header-contact-item">
-              <a class="header-contact-link" href="" target="_blank"
-                ><img
-                  class="header-contact-icon"
-                  src="./images/Vector.svg"
-                  alt="icon"
-                  rel="noopener noreferrer nofollow"
-              /></a>
-            </li>
-          </ul>
         </nav>
+
+        <ul class="header-contact-list">
+          <li class="header-contact-item">
+            <a class="header-contact-link" href="" target="_blank"
+              ><img
+                class="header-contact-icon"
+                src="./images/instagram.svg"
+                alt="icon"
+                rel="noopener noreferrer nofollow"
+            /></a>
+          </li>
+          <li class="header-contact-item">
+            <a class="header-contact-link" href="" target="_blank"
+              ><img
+                class="header-contact-icon"
+                src="./images/Vector.svg"
+                alt="icon"
+                rel="noopener noreferrer nofollow"
+            /></a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -68,9 +69,11 @@
               Treat yourself or a loved one to our finest ingredients for a
               moment of pure delight!
             </h1>
-            <button class="hero-buy-btn" type="button">Buy now</button>
-            <a class="hero-made-btn" href="#made">How it’s made</a>
-            <a class="hero-down-btn" href=""> scroll down</a>
+            <div class="hero-buttons">
+              <button class="hero-buy-btn" type="button">Buy now</button>
+              <a class="hero-made-btn" href="#made">How it’s made</a>
+              <a class="hero-down-btn" href=""> scroll down</a>
+            </div>
           </div>
         </div>
       </section>
@@ -80,7 +83,11 @@
           <h2 class="visually-hidden">Featuras</h2>
           <ul class="features-list">
             <li class="features-item">
-              <img src="./images/icons-taste.svg" alt="icons-taste" />
+              <img
+                class="features-image"
+                src="./images/icons-taste.svg"
+                alt="icons-taste"
+              />
               <h3 class="features-subtitle">Unsurpassed taste</h3>
               <p class="features-item-text">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -90,7 +97,11 @@
               </p>
             </li>
             <li class="features-item">
-              <img src="./images/icons-price.svg" alt="icons-price" />
+              <img
+                class="features-image"
+                src="./images/icons-price.svg"
+                alt="icons-price"
+              />
               <h3 class="features-subtitle">Affordable price</h3>
               <p class="features-item-text">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -101,7 +112,11 @@
               </p>
             </li>
             <li class="features-item">
-              <img src="./images/icons-production.svg" alt="icons-production" />
+              <img
+                class="features-image"
+                src="./images/icons-production.svg"
+                alt="icons-production"
+              />
               <h3 class="features-subtitle">Own production</h3>
               <p class="features-item-text">
                 We take pride in our own production process, ensuring that every
@@ -128,37 +143,41 @@
           <ul class="taste-list">
             <li class="taste-item">
               <img
+                class="taste-image"
                 src="./images//kisspng-milk-white-chocolate-min.png"
                 alt="chocolate"
-                width="206"
-                height="160"
+                width="270"
+                height="270"
               />
-              <h3>MILK CHOCOLATE</h3>
+              <h3 class="taste-subtitle">MILK CHOCOLATE</h3>
             </li>
             <li class="taste-item">
               <img
+                class="taste-image"
                 src="./images/kisspng-milk-white-min.png"
                 alt="image-milk-white"
-                width="206"
-                height="160"
+                width="270"
+                height="270"
               />
               <h3 class="taste-subtitle">Milk</h3>
             </li>
             <li class="taste-item">
               <img
+                class="taste-image"
                 src="./images/kisspng-nuts1-min.png"
                 alt="image-nuts"
-                width="206"
-                height="160"
+                width="270"
+                height="270"
               />
               <h3 class="taste-subtitle">nuts</h3>
             </li>
             <li class="taste-item">
               <img
+                class="taste-image"
                 src="./images/kisspng-cofee-min.png"
                 alt="image-nuts"
-                width="206"
-                height="160"
+                width="270"
+                height="270"
               />
               <h3 class="taste-subtitle">SEMI - SWEET CHOCOLATE</h3>
             </li>
@@ -309,161 +328,169 @@
       </section>
       <!-- -------------------------------------------- -->
       <section class="sellers">
-        <h2 class="sellers-title title"><span>Top </span> Sellers</h2>
-        <ul class="sellers-list">
-          <li class="sellers-item">
-            <img
-              class="sellers-image"
-              src="./images/sellers-1-min.jpg"
-              alt="Chocolate with nuts"
-              width="368"
-              height="464"
-            />
-            <h3 class="sellers-subtitle">Chocolate with nuts</h3>
-          </li>
-          <li class="sellers-item">
-            <img
-              class="sellers-image"
-              src="./images/sellers-2-min.jpg"
-              alt="Chocolate with fruits"
-              width="368"
-              height="464"
-            />
-            <h3 class="sellers-subtitle">Chocolate with fruits</h3>
-          </li>
-          <li class="sellers-item">
-            <img
-              class="sellers-image"
-              src="./images/sellers-3-min.jpg"
-              alt="Dark chocolate"
-              width="368"
-              height="464"
-            />
-            <h3 class="sellers-subtitle">Dark chocolate</h3>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="sellers-title title"><span>Top </span> Sellers</h2>
+          <ul class="sellers-list">
+            <li class="sellers-item">
+              <img
+                class="sellers-image"
+                src="./images/sellers-1-min.jpg"
+                alt="Chocolate with nuts"
+                width="368"
+                height="464"
+              />
+              <h3 class="sellers-subtitle">Chocolate with nuts</h3>
+            </li>
+            <li class="sellers-item">
+              <img
+                class="sellers-image"
+                src="./images/sellers-2-min.jpg"
+                alt="Chocolate with fruits"
+                width="368"
+                height="464"
+              />
+              <h3 class="sellers-subtitle">Chocolate with fruits</h3>
+            </li>
+            <li class="sellers-item">
+              <img
+                class="sellers-image"
+                src="./images/sellers-3-min.jpg"
+                alt="Dark chocolate"
+                width="368"
+                height="464"
+              />
+              <h3 class="sellers-subtitle">Dark chocolate</h3>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- ----------------------------------------- -->
       <section class="loved">
-        <h2 class="loved-title title"><span>chocolate </span> is loved</h2>
-        <ul class="loved-list">
-          <li class="loved-item">
-            <img
-              class="loved-image"
-              src="./images/ellipse-loved-1-min.jpg"
-              alt="Victoria
-            Dobrzhanska"
-              width="80"
-            />
-            <h3 class="loved-subtitle">Victoria Dobrzhanska</h3>
-            <p class="loved-item-text">
-              I love this chocolate bar. Perfect combination of light crispy
-              wafer, covered in a thin layer chocolate.
-            </p>
-          </li>
-          <li class="loved-item">
-            <img
-              class="loved-image"
-              src="./images/loved-2-min.jpg"
-              alt="Nazar Babenko"
-              width="80"
-            />
-            <h3 class="loved-subtitle">Nazar Babenko</h3>
-            <p class="loved-item-text">
-              This chocolate confection is a delight! A delight! The wafer is
-              light and crisp, the hazelnut cream is smooth, and the chocolate
-              is good.
-            </p>
-          </li>
-          <li class="loved-item">
-            <img
-              class="loved-image"
-              src="./images/loved-3-min.jpg"
-              alt="Olena Kampusch"
-              width="80"
-            />
-            <h3 class="loved-subtitle">Olena Kampusch</h3>
-            <p class="loved-item-text">
-              Chocolate is a family favourite treat. Love the delicious smooth
-              chocolate and the creaminess inside. The wafer is soft but
-              crunchy.
-            </p>
-          </li>
-        </ul>
-        <button class="loved-btn" type="button">Leave a review</button>
+        <div class="container">
+          <h2 class="loved-title title"><span>chocolate </span> is loved</h2>
+          <ul class="loved-list">
+            <li class="loved-item">
+              <img
+                class="loved-image"
+                src="./images/ellipse-loved-1-min.jpg"
+                alt="Victoria
+                Dobrzhanska"
+                width="80"
+              />
+              <h3 class="loved-subtitle">Victoria Dobrzhanska</h3>
+              <p class="loved-item-text">
+                I love this chocolate bar. Perfect combination of light crispy
+                wafer, covered in a thin layer chocolate.
+              </p>
+            </li>
+            <li class="loved-item">
+              <img
+                class="loved-image"
+                src="./images/loved-2-min.jpg"
+                alt="Nazar Babenko"
+                width="80"
+              />
+              <h3 class="loved-subtitle">Nazar Babenko</h3>
+              <p class="loved-item-text">
+                This chocolate confection is a delight! A delight! The wafer is
+                light and crisp, the hazelnut cream is smooth, and the chocolate
+                is good.
+              </p>
+            </li>
+            <li class="loved-item">
+              <img
+                class="loved-image"
+                src="./images/loved-3-min.jpg"
+                alt="Olena Kampusch"
+                width="80"
+              />
+              <h3 class="loved-subtitle">Olena Kampusch</h3>
+              <p class="loved-item-text">
+                Chocolate is a family favourite treat. Love the delicious smooth
+                chocolate and the creaminess inside. The wafer is soft but
+                crunchy.
+              </p>
+            </li>
+          </ul>
+          <button class="loved-btn" type="button">Leave a review</button>
+        </div>
       </section>
       <!-- -------------------------------------------- -->
       <section class="explore">
-        <!-- <img src="./images/explore-min.png" alt="explore" /> -->
-        <h2 class="explore-title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
-        <p class="explore-text">
-          From the velvety texture to the rich and complex flavor, our New
-          Chocolate is a true indulgence that will leave you craving more. Made
-          with only the finest ingredients and handcrafted with the utmost care,
-          each piece is a work of art that is sure to please.
-        </p>
-        <button class="explore-btn" type="button">Subscribe</button>
+        <div class="container">
+          <!-- <img src="./images/explore-min.png" alt="explore" /> -->
+          <h2 class="explore-title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+          <p class="explore-text">
+            From the velvety texture to the rich and complex flavor, our New
+            Chocolate is a true indulgence that will leave you craving more.
+            Made with only the finest ingredients and handcrafted with the
+            utmost care, each piece is a work of art that is sure to please.
+          </p>
+          <button class="explore-btn" type="button">Subscribe</button>
+        </div>
       </section>
     </main>
     <!-- ------------------------------------------ -->
     <footer class="footer">
-      <p class="footer-text">
-        <span>Chocolate </span> a delicious cure for a bad day
-      </p>
-      <p class="footer-subtitle">Contact us</p>
-      <address>
-        <ul class="footer-contacts-list">
-          <li class="footer-contacts-item">
-            <a
-              class="footer-contacts-link"
-              href="tel:+380684439426"
-              target="_blank"
-              >+380 (68) 443-94-26</a
-            >
+      <div class="container">
+        <p class="footer-text">
+          <span>Chocolate </span> a delicious cure for a bad day
+        </p>
+        <p class="footer-subtitle">Contact us</p>
+        <address>
+          <ul class="footer-contacts-list">
+            <li class="footer-contacts-item">
+              <a
+                class="footer-contacts-link"
+                href="tel:+380684439426"
+                target="_blank"
+                >+380 (68) 443-94-26</a
+              >
+            </li>
+            <li class="footer-contacts-item">
+              <a
+                class="footer-contacts-link"
+                href="mailto:simplychoc@gmail.com"
+                target="_blank"
+                >simplychoc@gmail.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="footer-soc-list">
+          <li class="footer-soc-item">
+            <a class="footer-soc-link" href="" target="_blank"
+              ><img
+                class="footer-soc-icon"
+                src="./images/instagram.svg"
+                alt="icon"
+                rel="noopener noreferrer nofollow"
+            /></a>
           </li>
-          <li class="footer-contacts-item">
-            <a
-              class="footer-contacts-link"
-              href="mailto:simplychoc@gmail.com"
-              target="_blank"
-              >simplychoc@gmail.com</a
-            >
-          </li>
-        </ul>
-      </address>
-      <ul class="footer-soc-list">
-        <li class="footer-soc-item">
-          <a class="footer-soc-link" href="" target="_blank"
-            ><img
-              class="footer-soc-icon"
-              src="./images/instagram.svg"
-              alt="icon"
-              rel="noopener noreferrer nofollow"
-          /></a>
-        </li>
-        <li class="footer-soc-item">
-          <a class="footer-soc-link" href="" target="_blank"
-            ><img
-              class="footer-soc-icon"
-              src="./images/Vector.svg"
-              alt="icon"
-              rel="noopener noreferrer nofollow"
-          /></a>
-        </li>
-      </ul>
-      <nav class="footer-navigation">
-        <ul class="footer-menu-list">
-          <li class="footer-menu-item">
-            <a class="footer-menu-link" href="">Home</a>
-          </li>
-          <li class="footer-menu-item">
-            <a class="footer-menu-link" href="">How it’s made?</a>
-          </li>
-          <li class="footer-menu-item">
-            <a class="footer-menu-link" href="">Chocolate is loved</a>
+          <li class="footer-soc-item">
+            <a class="footer-soc-link" href="" target="_blank"
+              ><img
+                class="footer-soc-icon"
+                src="./images/Vector.svg"
+                alt="icon"
+                rel="noopener noreferrer nofollow"
+            /></a>
           </li>
         </ul>
-      </nav>
+        <nav class="footer-navigation">
+          <ul class="footer-menu-list">
+            <li class="footer-menu-item">
+              <a class="footer-menu-link" href="">Home</a>
+            </li>
+            <li class="footer-menu-item">
+              <a class="footer-menu-link" href="">How it’s made?</a>
+            </li>
+            <li class="footer-menu-item">
+              <a class="footer-menu-link" href="">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
