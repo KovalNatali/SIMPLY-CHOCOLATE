@@ -111,6 +111,10 @@ img {
   display: flex;
   gap: 18px;
 }
+.header-contact-icon {
+  fill: transparent;
+  stroke: #111111;
+}
 
 /* ============= hero ============== */
 
@@ -119,9 +123,17 @@ img {
 }
 
 .hero-wrap {
-  background-color: dimgrey;
+  background-color: #fcf1e0;
   padding: 380px 40px 40px 40px;
   border-radius: 30px;
+  background-image: linear-gradient(
+      rgba(17, 17, 17, 0.4),
+      rgba(17, 17, 17, 0.4)
+    ),
+    url(../images/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .hero-title {
   font-weight: 500;
@@ -207,6 +219,13 @@ img {
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
 }
+/* .features-item::after {
+  content: "|";
+  width: 2px;
+  height: 20px;
+  background-color: white;
+  display: block;
+} */
 
 /* ======== taste ========= */
 
