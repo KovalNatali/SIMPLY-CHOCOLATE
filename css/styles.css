@@ -114,6 +114,11 @@ img {
 .header-contact-icon {
   fill: transparent;
   stroke: #111111;
+  transition: background-color 500ms cubic-bezier(0.54, -1.21, 0.23, 1.93);
+}
+.header-contact-icon:hover,
+.header-contact-icon:focus {
+  stroke: #fd9222;
 }
 
 /* ============= hero ============== */
@@ -157,7 +162,15 @@ img {
   color: #fff;
   background-color: #fd9222;
   margin-right: 14px;
+  transition: background-color 300ms cubic-bezier(0.54, -1.21, 0.23, 1.93);
 }
+
+.hero-buy-btn:hover,
+.hero-buy-btn:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
+
 .hero-made-btn {
   font-weight: 600;
   font-size: 14px;
@@ -165,7 +178,16 @@ img {
   border: 1px solid #fff;
   border-radius: 100px;
   color: #fff;
+  transition: background-color 300ms cubic-bezier(0.54, -1.21, 0.23, 1.93);
 }
+
+.hero-made-btn:hover,
+.hero-made-btn:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+  border: 1px solid #fd9222;
+}
+
 .hero-down-btn {
   font-weight: 500;
   font-size: 14px;
@@ -339,6 +361,7 @@ img {
 }
 
 .products-list {
+  display: flex;
 }
 .products-item {
 }
@@ -380,10 +403,30 @@ img {
   gap: 16px;
 }
 .sellers-item {
+  width: calc((100% - 32px) / 3);
+  border-radius: 15px 15px 0 0;
+}
+.sellers-cover-wrap {
+  position: relative;
 }
 .sellers-image {
 }
 
+.sellers-cover-text {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  background-color: gray;
+  height: 100%;
+  border-radius: 15px 15px 0 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+}
 .sellers-subtitle {
   font-weight: 600;
   font-size: 18px;
@@ -437,11 +480,22 @@ img {
 }
 
 .loved-btn {
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 222px;
+  height: 50px;
   font-weight: 600;
   font-size: 18px;
   color: #111;
+  transition: background-color 300ms cubic-bezier(0.54, -1.21, 0.23, 1.93);
 }
 
+.loved-btn:hover,
+.loved-btn:focus {
+  color: #fff;
+  background-color: #fd9222;
+}
 /* ========== explore ============= */
 
 .explore {
@@ -470,8 +524,19 @@ img {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 172px;
+  height: 50px;
+  background-color: #fd9222;
+  border: none;
+  transition: background-color 300ms cubic-bezier(0.54, -1.21, 0.23, 1.93);
 }
-
+.explore-btn:hover,
+.explore-btn:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
 /* ======== footer =============== */
 .footer {
   background-color: #1e1823;

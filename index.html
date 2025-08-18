@@ -31,7 +31,7 @@
               <a class="header-menu-link" href="">Home</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link" href="">How it’s made?</a>
+              <a class="header-menu-link" href="#mades">How it’s made?</a>
             </li>
             <li class="header-menu-item">
               <a class="header-menu-link" href="">Chocolate is loved</a>
@@ -48,9 +48,11 @@
             </a>
           </li>
           <li class="header-contact-item">
-   <svg class="header-contact-icon" width="24" height="24">
+            <a class="header-contact-link" href="" target="_blank">
+              <svg class="header-contact-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-Vector"></use>
-              </svg></a>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
@@ -66,7 +68,7 @@
             </h1>
             <div class="hero-buttons">
               <button class="hero-buy-btn" type="button">Buy now</button>
-              <a class="hero-made-btn" href="#made">How it’s made</a>
+              <a class="hero-made-btn" href="#mades">How it’s made</a>
               <a class="hero-down-btn" href=""> scroll down</a>
             </div>
           </div>
@@ -79,11 +81,11 @@
           <ul class="features-list">
             <li class="features-item">
               <div class="features-div">
-                  <svg class="features-image"width="24" height="24" >
-                <use href="./images/icons.svg#icon-cholat-bar-icon"></use>
-               </svg>
+                <svg class="features-image" width="24" height="24">
+                  <use href="./images/icons.svg#icon-cholat-bar-icon"></use>
+                </svg>
               </div>
-              
+
               <h3 class="features-subtitle">Unsurpassed taste</h3>
               <p class="features-item-text">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -93,11 +95,13 @@
               </p>
             </li>
             <li class="features-item">
-
-              <div class="features-div ">
-                 <svg class="features-image" width="24" height="24" >
-                  <use class="features-icon" href="./images/icons.svg#icon-coin--icon"></use>
-                 </svg>
+              <div class="features-div">
+                <svg class="features-image" width="24" height="24">
+                  <use
+                    class="features-icon"
+                    href="./images/icons.svg#icon-coin--icon"
+                  ></use>
+                </svg>
               </div>
               <h3 class="features-subtitle">Affordable price</h3>
               <p class="features-item-text">
@@ -109,11 +113,11 @@
               </p>
             </li>
             <li class="features-item">
-                <div class="features-div ">
-                  <svg class="features-image" width="24" height="24">
+              <div class="features-div">
+                <svg class="features-image" width="24" height="24">
                   <use href="./images/icons.svg#icon-lojca-icon"></use>
-                 </svg>
-                </div>
+                </svg>
+              </div>
               <h3 class="features-subtitle">Own production</h3>
               <p class="features-item-text">
                 We take pride in our own production process, ensuring that every
@@ -182,7 +186,7 @@
         </div>
       </section>
       <!-- =------------------------------------------------ -->
-      <section id="made" class="made">
+      <section id="mades" class="made">
         <div class="container">
           <h2 class="made-title title">HOW IT’S <span>made? </span></h2>
           <div class="made-wrap">
@@ -336,13 +340,21 @@
           <h2 class="sellers-title title"><span>Top </span> Sellers</h2>
           <ul class="sellers-list">
             <li class="sellers-item">
-              <img
-                class="sellers-image"
-                src="./images/sellers-1-min.jpg"
-                alt="Chocolate with nuts"
-                width="368"
-                height="464"
-              />
+              <div class="sellers-cover-wrap">
+                <img
+                  class="sellers-image"
+                  src="./images/sellers-1-min.jpg"
+                  alt="Chocolate with nuts"
+                  width="368"
+                  height="464"
+                />
+                <p class="sellers-cover-text">
+                  Crazy enough chocolate originates from a bean just like the
+                  coffee bean called Cacao. Cacao has been around for thousands
+                  of years and was first discovered by the Native American tribe
+                  called the Mayans.
+                </p>
+              </div>
               <h3 class="sellers-subtitle">Chocolate with nuts</h3>
             </li>
             <li class="sellers-item">
