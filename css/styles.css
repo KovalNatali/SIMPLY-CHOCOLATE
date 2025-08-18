@@ -203,10 +203,22 @@ img {
 .features-item {
   width: calc((100% - 2 * 88px) / 3);
 }
-
-.features-image {
-  margin-bottom: 18px;
+.features-div {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 365px;
+  width: 62px;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
 }
+.features-image {
+  fill: #fd9222;
+}
+.features-icon {
+}
+
 .features-subtitle {
   font-weight: 600;
   font-size: 18px;
