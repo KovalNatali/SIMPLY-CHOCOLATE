@@ -733,3 +733,35 @@ img {
   background-color: #fcf1e0;
   color: #fd9222;
 }
+
+.check-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fd9222;
+}
+
+.check-text span {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(17, 17, 17, 0.14);
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+
+/* .modal-check-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.modal-check:checked + .check-text span {
+  background-color: #fd9222;
+  border: none;
+  fill: #fafafa;
+}
