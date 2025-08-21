@@ -570,6 +570,9 @@
               placeholder="Phone number*"
               required
               id="user-tel"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              title="+380 (96) 111-11-11"
+              value="+380"
             />
           </div>
           <div class="modal-field">
@@ -582,7 +585,7 @@
             ></textarea>
           </div>
 
-          <button type="submit">Send</button>
+          <button class="modal-button-send" type="submit">Send</button>
         </form>
       </div>
     </div>

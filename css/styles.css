@@ -707,7 +707,29 @@ img {
   background-color: transparent;
   outline: transparent;
   padding: 22px 24px;
-  color: teal;
+  color: rgba(64, 64, 64, 0.3);
   transition: border-color 300ms linear;
   resize: none;
+}
+.modal-text::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+.modal-button-send {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 117px;
+  height: 45px;
+  background-color: #fd9222;
+  border: none;
+}
+.modal-button-send:hover,
+.modal-button-send:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
 }
