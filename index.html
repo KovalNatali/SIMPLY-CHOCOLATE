@@ -459,45 +459,50 @@
       <!-- -------------------------------------------- -->
       <section class="explore">
         <div class="container">
-          <!-- <img src="./images/explore-min.png" alt="explore" /> -->
-          <h2 class="explore-title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
-          <p class="explore-text">
-            From the velvety texture to the rich and complex flavor, our New
-            Chocolate is a true indulgence that will leave you craving more.
-            Made with only the finest ingredients and handcrafted with the
-            utmost care, each piece is a work of art that is sure to please.
-          </p>
-          <button class="explore-btn" type="button">Subscribe</button>
+          <div class="explore-wrap">
+            <div class="exp-div">
+              <h2 class="explore-title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+              <p class="explore-text">
+                From the velvety texture to the rich and complex flavor, our New
+                Chocolate is a true indulgence that will leave you craving more.
+                Made with only the finest ingredients and handcrafted with the
+                utmost care, each piece is a work of art that is sure to please.
+              </p>
+              <button class="explore-btn" type="button">Subscribe</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <!-- ------------------------------------------ -->
     <footer class="footer">
       <div class="container">
-        <p class="footer-text">
-          <span>Chocolate </span> a delicious cure for a bad day
-        </p>
-        <p class="footer-subtitle">Contact us</p>
-        <address>
-          <ul class="footer-contacts-list">
-            <li class="footer-contacts-item">
-              <a
-                class="footer-contacts-link"
-                href="tel:+380684439426"
-                target="_blank"
-                >+380 (68) 443-94-26</a
-              >
-            </li>
-            <li class="footer-contacts-item">
-              <a
-                class="footer-contacts-link"
-                href="mailto:simplychoc@gmail.com"
-                target="_blank"
-                >simplychoc@gmail.com</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="footer">
+          <p class="footer-text">
+            <span>Chocolate </span> a delicious cure for a bad day
+          </p>
+          <p class="footer-subtitle">Contact us</p>
+          <address>
+            <ul class="footer-contacts-list">
+              <li class="footer-contacts-item">
+                <a
+                  class="footer-contacts-link"
+                  href="tel:+380684439426"
+                  target="_blank"
+                  >+380 (68) 443-94-26</a
+                >
+              </li>
+              <li class="footer-contacts-item">
+                <a
+                  class="footer-contacts-link"
+                  href="mailto:simplychoc@gmail.com"
+                  target="_blank"
+                  >simplychoc@gmail.com</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
         <ul class="footer-soc-list">
           <li class="footer-soc-item">
             <a class="footer-soc-link" href="" target="_blank"
@@ -570,7 +575,6 @@
               placeholder="Phone number*"
               required
               id="user-tel"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
               title="+380 (96) 111-11-11"
               value="+380"
             />
@@ -584,16 +588,22 @@
               class="modal-text"
             ></textarea>
           </div>
+
           <div class="modal-field">
             <input
               type="checkbox"
               name="privacy"
               required
               id="privacy"
-              class="modal-check"
+              class="modal-check visually-hidden"
             />
-            <label for="privacy" class="check-text"></label>
-              <span></span> I accept the terms and conditions of the
+            <label for="privacy" class="check-text">
+              <span
+                ><svg class="modal-check-icon" width="10" height="10">
+                  <use href="./images/icons.svg#icon-chek"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a href="" class="check-link">Privacy Policy</a></label
             >
           </div>

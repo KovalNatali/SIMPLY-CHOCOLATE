@@ -542,9 +542,25 @@ img {
 /* ========== explore ============= */
 
 .explore {
-  background-color: dimgrey;
-  /* width: 1136px; */
-  height: 370px;
+}
+
+.explore-wrap {
+  background-color: #fcf1e0;
+  padding: 72px 367px;
+  background-image: linear-gradient(
+      rgba(17, 17, 17, 0.4),
+      rgba(17, 17, 17, 0.4)
+    ),
+    url(../images/explore-min.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+}
+.exp-div {
 }
 .explore-title {
   font-weight: 600;
@@ -562,6 +578,8 @@ img {
   letter-spacing: -0.02em;
   text-align: center;
   color: #fff;
+  /* height: 72px;
+  width: 467px; */
 }
 .explore-btn {
   font-weight: 600;
@@ -642,10 +660,19 @@ img {
   position: fixed;
   top: 0;
   background-color: rgba(30, 24, 35, 0.6);
-
   width: 100%;
   height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .modal {
   position: absolute;
   width: 517px;
@@ -739,7 +766,14 @@ img {
   text-decoration-skip-ink: none;
   color: #fd9222;
 }
-
+.check-text {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.6);
+  display: flex;
+  align-items: center;
+}
 .check-text span {
   position: relative;
   width: 20px;
