@@ -601,6 +601,14 @@ img {
 /* ======== footer =============== */
 .footer {
   background-color: #1e1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-top {
+  display: flex;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 24px;
 }
 .footer-text {
   font-weight: 500;
@@ -608,18 +616,23 @@ img {
   line-height: 121%;
   letter-spacing: -0.02em;
   color: #fff;
+  max-width: 300px;
+  margin-right: auto;
 }
 
 .footer-text span {
   color: #fd9222;
 }
 
+.footer-soc {
+  margin-right: 50px;
+}
 .footer-subtitle {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-  /* text-align: center; */
   color: #fff;
+  margin-bottom: 14px;
 }
 .footer-contacts-list {
 }
@@ -634,17 +647,36 @@ img {
   color: #fff;
 }
 .footer-soc-list {
+  display: flex;
+  gap: 18px;
 }
 .footer-soc-item {
 }
 .footer-soc-link {
 }
+
 .footer-soc-icon {
-  color: #fff;
+  fill: transparent;
+  stroke: #fcf1e0;
+  transition: background-color 500ms cubic-bezier(0.54, -1.21, 0.23, 1.93);
 }
+
+.footer-soc-icon:hover,
+.footer-soc-icon:focus {
+  stroke: #fd9222;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer-navigation {
 }
 .footer-menu-list {
+  display: flex;
+  gap: 24px;
 }
 .footer-menu-item {
 }
@@ -654,6 +686,45 @@ img {
   line-height: 1.14;
   letter-spacing: -0.02em;
   color: #fff;
+}
+.footer-form {
+  display: flex;
+  gap: 8px;
+}
+.footer-input {
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  border-radius: 30px;
+  width: 313px;
+  height: 52px;
+  background-color: transparent;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.footer-input::placeholder {
+  font-size: 18px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-form-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 100px;
+  padding: 17px 40px;
+  background-color: #fd9222;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
 }
 
 .backdrop {
