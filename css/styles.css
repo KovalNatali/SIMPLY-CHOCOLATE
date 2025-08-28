@@ -42,8 +42,8 @@ img {
 }
 
 .container {
-  max-width: 1136px;
-  /* width: 320px; */
+  /* max-width: 1136px; */
+  width: 320px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -201,8 +201,8 @@ img {
 
 .featuras {
   background-color: #1e1823;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .visually-hidden {
   position: absolute;
@@ -218,12 +218,16 @@ img {
 }
 .features-list {
   display: flex;
-  gap: 88px;
+  flex-wrap: wrap;
+  /* gap: 88px; */
+  gap: 20px;
   padding-left: 18px;
   padding-right: 18px;
 }
 .features-item {
-  width: calc((100% - 2 * 88px) / 3);
+  /* width: calc((100% - 2 * 88px) / 3); */
+  width: 100%;
+  padding-right: 28px;
 }
 .features-div {
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -238,8 +242,6 @@ img {
 .features-image {
   fill: #fd9222;
 }
-.features-icon {
-}
 
 .features-subtitle {
   font-weight: 600;
@@ -253,30 +255,23 @@ img {
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
 }
-/* .features-item::after {
-  content: "|";
-  width: 2px;
-  height: 20px;
-  background-color: white;
-  display: block;
-} */
 
 /* ======== taste ========= */
 
 .taste {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 .taste-title {
-  width: 383px;
+  width: 283px;
   margin: 0 auto;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
   text-align: center;
 }
 
 .taste-text {
-  width: 486px;
+  width: 335px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -288,8 +283,11 @@ img {
 }
 .taste-list {
   display: flex;
-  gap: 19px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 
+  /* gap: 19px; */
   /* width: calc((100% - 19px * 3) / 4); */
 }
 
@@ -297,6 +295,7 @@ img {
   padding: 28px;
   border-radius: 15px;
   background-color: #fd9222;
+  /* width: 100%; */
 }
 
 /* .taste-item:hover .teste-cover-text {
@@ -331,6 +330,7 @@ img {
 } */
 .taste-image {
   margin-bottom: 36px;
+  margin: 0 auto;
 }
 
 .taste-subtitle {
@@ -898,4 +898,71 @@ img {
   background-color: #fd9222;
   border: none;
   fill: #fafafa;
+}
+
+/* ============================================= */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 734px;
+  }
+  .made .container {
+    width: 644px;
+  }
+  .featuras {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .features-list {
+    gap: 44px 88px;
+  }
+  .features-item {
+    width: calc((100% - 88px) / 2);
+    padding-right: 0;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .taste {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .taste-title {
+    width: 411px;
+    margin-bottom: 28px;
+  }
+  .taste-text {
+    width: 486px;
+  }
+  .taste-list {
+    gap: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1166px;
+  }
+  .made .container {
+    width: 1166px;
+  }
+  .features-list {
+    gap: 0 88px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .features-item {
+    width: calc((100% - 2 * 88px) / 3);
+  }
+  .taste {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .taste-title {
+    width: 411px;
+  }
+  .taste-list {
+    flex-wrap: nowrap;
+    gap: 19px;
+    /* width: calc((100% - 19px * 3) / 4); */
+  }
 }
