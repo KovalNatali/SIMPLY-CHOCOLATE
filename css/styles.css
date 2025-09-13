@@ -129,7 +129,8 @@ img {
 
 .hero-wrap {
   background-color: #fcf1e0;
-  padding: 380px 40px 40px 40px;
+  padding: 395px 20px 20px 20px;
+  /* padding: 380px 40px 40px 40px; */
   border-radius: 30px;
   background-image: linear-gradient(
       rgba(17, 17, 17, 0.4),
@@ -142,7 +143,8 @@ img {
 }
 .hero-title {
   font-weight: 500;
-  font-size: 28px;
+  font-size: 20px;
+  /* font-size: 28px; */
   line-height: 1.21;
   letter-spacing: -0.03em;
   color: #fff;
@@ -151,12 +153,21 @@ img {
 }
 .hero-buttons {
   display: flex;
+  flex-wrap: wrap;
+
   align-items: center;
 }
+
+/* .hero-buttons {
+  display: flex;
+  
+  align-items: center;
+} */
 .hero-buy-btn {
   font-weight: 600;
   font-size: 14px;
-  padding: 14px 40px;
+  /* padding: 14px 40px; */
+  padding: 12px 16px;
   border-radius: 100px;
   border: none;
   color: #fff;
@@ -174,7 +185,8 @@ img {
 .hero-made-btn {
   font-weight: 600;
   font-size: 14px;
-  padding: 14px 40px;
+  padding: 12px 16px;
+  /* padding: 14px 40px; */
   border: 1px solid #fff;
   border-radius: 100px;
   color: #fff;
@@ -194,7 +206,8 @@ img {
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: #fff;
-  margin-left: auto;
+  /* margin-left: auto; */
+  margin-top: 32px;
 }
 
 /*==========featuras =========== */
@@ -946,6 +959,13 @@ img {
     margin-bottom: 28px;
     width: 350px;
   }
+  .hero-wrap {
+    padding: 670px 40px 40px 40px;
+  }
+
+  .hero-down-btn {
+    margin-left: auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   .container {
@@ -987,5 +1007,8 @@ img {
     font-size: 18px;
     line-height: 133%;
     color: #111;
+  }
+  .hero-wrap {
+    padding: 380px 40px 40px 40px;
   }
 }
