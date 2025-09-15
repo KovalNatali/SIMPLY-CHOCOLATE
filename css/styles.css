@@ -136,7 +136,7 @@ img {
       rgba(17, 17, 17, 0.4),
       rgba(17, 17, 17, 0.4)
     ),
-    url(../images/main-bg.jpg);
+    url(../images/main-bg-mob-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -961,6 +961,11 @@ img {
   }
   .hero-wrap {
     padding: 670px 40px 40px 40px;
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url(../images/main-bg-tab-min.jpg);
   }
 
   .hero-down-btn {
@@ -1010,5 +1015,10 @@ img {
   }
   .hero-wrap {
     padding: 380px 40px 40px 40px;
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url(../images/main-bg-min.jpg);
   }
 }
