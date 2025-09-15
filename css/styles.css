@@ -141,6 +141,19 @@ img {
   background-size: cover;
   background-position: center;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-wrap {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url(../images/main-bg-mob.-2x-min.jpg);
+  }
+}
+
 .hero-title {
   font-weight: 500;
   font-size: 20px;
@@ -284,7 +297,7 @@ img {
 }
 
 .taste-text {
-  width: 335px;
+  /* width: 335px; */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
@@ -365,6 +378,11 @@ img {
   margin-bottom: 32px;
   text-align: center;
 }
+.made-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
 .made-image {
 }
@@ -421,14 +439,25 @@ img {
 }
 .products-title {
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .products-list {
   display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
 }
 .products-item {
+  width: 100%;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .products-image {
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
 
 .products-subtitle {
@@ -437,6 +466,7 @@ img {
   line-height: 1.33;
   letter-spacing: -0.02em;
   color: #111;
+  margin-bottom: 2px;
 }
 
 .products-item-text {
@@ -445,6 +475,7 @@ img {
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: rgba(17, 17, 17, 0.7);
+  margin-bottom: 18px;
 }
 
 .products-item-btn {
@@ -967,9 +998,28 @@ img {
       ),
       url(../images/main-bg-tab-min.jpg);
   }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+      background-image: linear-gradient(
+          rgba(17, 17, 17, 0.4),
+          rgba(17, 17, 17, 0.4)
+        ),
+        url(../images/main-bg-tab-2x-min.jpg);
+    }
+  }
 
   .hero-down-btn {
     margin-left: auto;
+  }
+
+  .products-list {
+    gap: 32px;
+  }
+
+  .products-item {
+    width: calc((100% - 32px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1020,5 +1070,23 @@ img {
         rgba(17, 17, 17, 0.4)
       ),
       url(../images/main-bg-min.jpg);
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+      background-image: linear-gradient(
+          rgba(17, 17, 17, 0.4),
+          rgba(17, 17, 17, 0.4)
+        ),
+        url(../images/main-bg-2x-min.jpg);
+    }
+  }
+  .products-list {
+    gap: 24px 18px;
+  }
+
+  .products-item {
+    width: calc((100% - 54px) / 4);
   }
 }
