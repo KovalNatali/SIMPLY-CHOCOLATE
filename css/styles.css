@@ -92,7 +92,8 @@ img {
   font-style: italic;
 }
 .header-menu-list {
-  display: flex;
+  display: none;
+  /* display: flex; */
   gap: 24px;
 }
 .header-menu-link {
@@ -108,7 +109,8 @@ img {
 }
 
 .header-contact-list {
-  display: flex;
+  display: none;
+  /* display: flex; */
   gap: 18px;
 }
 .header-contact-icon {
@@ -120,7 +122,68 @@ img {
 .header-contact-icon:focus {
   stroke: #fd9222;
 }
+/* +++++++++++++mob-menu+++++++++++++++++++= */
+.menu-open-btn {
+}
+.mob-menu {
+  position: fixed;
+  top: 0;
+  background-color: #1e1823;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+.menu-close-btn {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 88px;
+}
 
+.mob-menu-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.mob-menu-list {
+  margin-top: 50px;
+}
+
+.mob-menu-nav {
+  align-self: center;
+}
+
+.mob-menu-item {
+}
+
+.mob-menu-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.mob-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.mob-contact-list {
+  display: flex;
+  gap: 12px;
+}
+.mob-contact-item {
+}
+.mob-contact-link {
+}
+.mob-contact-icon {
+  fill: transparent;
+  stroke: #fff;
+}
 /* ============= hero ============== */
 
 .hero {
