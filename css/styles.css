@@ -384,7 +384,12 @@ img {
   gap: 20px;
 }
 
+.made-wrap picture {
+  flex-shrink: 0;
+  width: 100%;
+}
 .made-image {
+  border-radius: 15px;
 }
 
 .made-content {
@@ -1050,13 +1055,19 @@ img {
     gap: 19px;
     /* width: calc((100% - 19px * 3) / 4); */
   }
-  .made-wrap {
-    display: flex;
-    gap: 20px;
-  }
+
   .made {
     padding-bottom: 120px;
   }
+
+  .made-wrap {
+    flex-wrap: nowrap;
+  }
+
+  .made-wrap picture {
+    width: unset;
+  }
+
   .made-subtitle {
     font-weight: 600;
     font-size: 18px;
